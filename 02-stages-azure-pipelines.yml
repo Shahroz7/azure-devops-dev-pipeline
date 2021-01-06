@@ -5,6 +5,5 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  echo steps working
-  echo $(PipelineLevelVariable)
-
+- bash: echo lets check
+- bash: echo $(PipelineLevelVariable)
